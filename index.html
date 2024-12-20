@@ -5,10 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gurumi e Arte</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <div>
+        <div class="container">
             <h1>Gurumi e Arte</h1>
             <nav>
                 <ul>
@@ -22,10 +25,66 @@
             </nav>
         </div>
     </header>
-    <section>
-        <div>
-            <img src="imagens/amigurumi0.png" alt="Imagem de um coelho, Papai Noel, Naruto e princesa Tiana feitos com a técnica de amigurumi">
+    <section id="about">
+        <div class="container">
+            <img class="store-front" src="imagens/amigurumi0.png" alt="Imagem de um coelho, Papai Noel, Naruto e princesa Tiana feitos com a técnica de amigurumi">
+            <div>
+                <h2>O que é um amigurumi?</h2>
+                <p>
+                    Amigurumi é uma técnica de artesanato japonesa que consiste em criar bonecos ou bichinhos tridimensionais em crochê ou tricô. A palavra amigurumi é uma junção dos termos "ami", que significa tricô ou crochê, e "nuigurumi", bicho de pelúcia.
+                </p>
+                <p>
+                    A técnica surgiu no Japão nos anos 80 e ganhou fama graças à Hello Kitty. A prática ficou tão popular que em 2002 foi criada a Associação Japonesa de Amigurumi.
+                </p>
+                <p>
+                    Os amigurumis podem ser usados em quartos de criança ou decoração para casa. Alguns amigurumis não têm boca, ou seja, passam pouca expressão. Isso porque o objetivo é que os sentimentos dele sejam definidos de acordo com os do seu dono.
+                </p>
+                <p>
+                    Para fazer amigurumis, além das linhas, agulhas e enchimentos, você também precisa de elementos para fazer os detalhes do amigurumi, como botões, feltros e olhos artificiais.
+                </p>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="container">
+            <h2>Contato</h2>
+            <div class="contact-methods">
+                <div>
+                    <h3>Fale Conosco</h3>
+                    <form>
+                        <input type="text" placeholder="Nome" required>
+                        <input type="email" placeholder="E-mail" required>
+                        <input type="tel" placeholder="Telefone (opcional)">
+                        <textarea placeholder="Deixe sua mensagem aqui" required></textarea>
+                        <button type="submit">Enviar</button>
+                    </form>
+                </div>
+                <div>
+                    <h3>Nossas Redes Sociais</h3>
+                    <ul class="social-links">
+                        <li>
+                            <a href="#" title="Siga-nos no Instagram">
+                                <img src="imagens/instagram.png" alt="Logo do Instagram">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" title="Siga-nos no Facebook">
+                                <img src="imagens/facebook.png" alt="Logo do Facebook">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Onde estamos:</h3>
+                    <p>Rua dos Alfeneiros, 000, Hogsmeade, Rio de Janeiro - RJ</p>
+                </div>
+            </div>
         </div>
     </section>
 </body>
+<footer>
+        <p>
+            &copy; Gurumi e Arte - Todos os direitos reservados - 2024
+        </p>
+</footer>
 </html>

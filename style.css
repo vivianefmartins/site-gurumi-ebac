@@ -4,3 +4,132 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: "Comic Neue", serif;
+    color: #ffffff;
+}
+
+h1 {
+    font-size: 50px;
+    text-shadow: 2px 1px rgba(88, 85, 85, 0.505);
+}
+
+header, section h2, section h3, form button {
+    font-family: "Cherry Bomb One", serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 1px;
+}
+
+header {
+    background-color: #f9b856;
+    padding: 16px 0;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container nav li {
+    display: inline;
+    margin-left: 30px;
+    font-size: 24px;
+}
+
+.container nav li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+section .container {
+    align-items: flex-start;
+}
+section {
+    padding: 24px 0;
+    color: #37251c;
+}
+
+section h2 {
+    margin-bottom: 16px;
+    color: #dda44d;
+    font-size: 35px;
+}
+
+section p {
+    margin-bottom: 8px;
+    letter-spacing: 2px;
+}
+
+.store-front {
+    margin-right: 32px;
+}
+
+#contact .container{
+    display: block;
+}
+
+.contact-methods {
+    display: flex;
+    justify-content: space-between;
+}
+
+section h3 {
+    margin-bottom: 16px;
+    font-size: 22px;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+}
+
+form button {
+    background-color: #dda44d;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+form button:hover {
+    background-color: #37251c;
+}
+
+input:focus,
+textarea:focus {
+    outline-color: #dda44d;
+}
+
+.social-links img {
+    height: 24px;
+}
+
+.social-links li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+footer {
+    background-color: #f9b856;
+    padding: 16px 0;
+    text-align: center;
+}
